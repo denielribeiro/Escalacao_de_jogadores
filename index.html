@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastramento de Jogadore</title>
+    <script src="index.js" defer></script>
+  </head>
+    <h1>Tabela de cadastramento de jogadores</h1>
+    <br />
+    <h2>Insira os dados do jogador a ser cadastrado</h2>
+    <hr />
+    <label for="playerName">Nome:</label>
+    <input id="playerName" type="text" placeholder="Nome do Jogador" />
+    <br />
+    <br />
+    <label for="playerPosition">Posição:</label>
+    <input id="playerPosition" type="text" placeholder="Posição do Jogador" />
+    <br />
+    <br />
+    <label for="playerNumber">Número:</label>
+    <input id="playerNumber" type="text" placeholder="Número da camisa" />
+    <br />
+    <hr />
+
+    <button id="playerAdd" onclick="addPlayer()">Adicionar Jogador</button>
+    <button id="removeAdd" onclick="removePlayer()">Remover Jogador</button>
+    <section id='players-list'></section>
+    </body>
+</html>
